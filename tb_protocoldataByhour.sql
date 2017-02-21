@@ -1,0 +1,295 @@
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : bragi
+Source Server Version : 50550
+Source Host           : 192.168.4.20:3306
+Source Database       : bragi
+
+Target Server Type    : MYSQL
+Target Server Version : 50550
+File Encoding         : 65001
+
+Date: 2017-01-12 17:20:39
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for `tb_protocoldataByhour`
+-- ----------------------------
+DROP TABLE IF EXISTS `tb_protocoldataByhour`;
+CREATE TABLE `tb_protocoldataByhour` (
+  `area` varchar(40) NOT NULL DEFAULT '',
+  `dataTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `count` int(20) DEFAULT NULL,
+  PRIMARY KEY (`area`,`dataTime`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+
+-- ----------------------------
+-- Records of tb_protocoldataByhour
+-- ----------------------------
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-11 05:00:00', '9172');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-11 06:00:00', '13590');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-11 07:00:00', '6779');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-11 08:00:00', '11434');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-11 09:00:00', '6415');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-11 10:00:00', '3716');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-11 11:00:00', '2670');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-12 01:00:00', '3316');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-12 02:00:00', '2169');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-12 03:00:00', '2022');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-12 04:00:00', '3167');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-12 05:00:00', '1825');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-12 06:00:00', '1995');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-12 07:00:00', '14829');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-12 08:00:00', '4577');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-12 09:00:00', '17779');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-12 10:00:00', '10172');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-12 11:00:00', '11856');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-12 12:00:00', '1320');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-12 13:00:00', '41007');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-12 14:00:00', '10897');
+INSERT INTO `tb_protocoldataByhour` VALUES ('110108', '2017-01-12 15:00:00', '9671');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-11 05:00:00', '25021');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-11 06:00:00', '29059');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-11 07:00:00', '13658');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-11 08:00:00', '36170');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-11 09:00:00', '9461');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-11 10:00:00', '19364');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-11 11:00:00', '17573');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-12 01:00:00', '12127');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-12 02:00:00', '12276');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-12 03:00:00', '10502');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-12 04:00:00', '13422');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-12 05:00:00', '19531');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-12 06:00:00', '13185');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-12 07:00:00', '25071');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-12 08:00:00', '14929');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-12 09:00:00', '41354');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-12 10:00:00', '23357');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-12 11:00:00', '14667');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-12 12:00:00', '10432');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-12 13:00:00', '49677');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-12 14:00:00', '50203');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120106', '2017-01-12 15:00:00', '27216');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-11 05:00:00', '12493');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-11 06:00:00', '23614');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-11 07:00:00', '6138');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-11 08:00:00', '1508');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-11 09:00:00', '1391');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-11 10:00:00', '863');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-11 11:00:00', '104');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-12 01:00:00', '37');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-12 02:00:00', '31');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-12 03:00:00', '26');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-12 04:00:00', '37');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-12 05:00:00', '61');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-12 06:00:00', '3093');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-12 07:00:00', '15841');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-12 08:00:00', '7875');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-12 09:00:00', '26150');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-12 10:00:00', '20264');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-12 11:00:00', '13781');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-12 12:00:00', '160');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-12 13:00:00', '28734');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-12 14:00:00', '33911');
+INSERT INTO `tb_protocoldataByhour` VALUES ('120111', '2017-01-12 15:00:00', '20599');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130104', '2017-01-11 05:00:00', '102966');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130104', '2017-01-11 06:00:00', '107204');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130104', '2017-01-11 07:00:00', '52146');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130104', '2017-01-11 08:00:00', '80424');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130104', '2017-01-11 09:00:00', '27033');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130104', '2017-01-11 10:00:00', '51197');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130104', '2017-01-11 11:00:00', '44511');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130104', '2017-01-12 01:00:00', '23845');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130104', '2017-01-12 02:00:00', '27660');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130104', '2017-01-12 03:00:00', '20366');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130104', '2017-01-12 04:00:00', '23422');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130104', '2017-01-12 05:00:00', '29312');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130104', '2017-01-12 06:00:00', '25433');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130104', '2017-01-12 07:00:00', '110287');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130104', '2017-01-12 08:00:00', '38639');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130104', '2017-01-12 12:00:00', '20433');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-11 05:00:00', '10926');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-11 06:00:00', '8943');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-11 07:00:00', '3993');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-11 08:00:00', '6201');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-11 09:00:00', '3844');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-11 10:00:00', '2740');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-11 11:00:00', '1468');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-12 01:00:00', '584');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-12 02:00:00', '329');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-12 03:00:00', '712');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-12 04:00:00', '949');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-12 05:00:00', '900');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-12 06:00:00', '646');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-12 07:00:00', '6307');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-12 08:00:00', '7182');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-12 09:00:00', '14856');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-12 10:00:00', '8028');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-12 11:00:00', '9024');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-12 12:00:00', '1467');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-12 13:00:00', '13334');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-12 14:00:00', '16556');
+INSERT INTO `tb_protocoldataByhour` VALUES ('130921', '2017-01-12 15:00:00', '11052');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-11 05:00:00', '4441');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-11 06:00:00', '13424');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-11 07:00:00', '3943');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-11 08:00:00', '8075');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-11 09:00:00', '4619');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-11 10:00:00', '3700');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-11 11:00:00', '4027');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-12 02:00:00', '1245');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-12 03:00:00', '1795');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-12 04:00:00', '1494');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-12 05:00:00', '2690');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-12 06:00:00', '2267');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-12 07:00:00', '9029');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-12 09:00:00', '13461');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-12 10:00:00', '11266');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-12 11:00:00', '10578');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-12 12:00:00', '16473');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-12 13:00:00', '17303');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-12 14:00:00', '16148');
+INSERT INTO `tb_protocoldataByhour` VALUES ('131002', '2017-01-12 15:00:00', '7427');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-11 05:00:00', '12554');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-11 06:00:00', '8207');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-11 07:00:00', '6103');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-11 08:00:00', '13711');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-11 09:00:00', '5098');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-11 10:00:00', '5162');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-11 11:00:00', '4498');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-12 01:00:00', '2384');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-12 02:00:00', '893');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-12 03:00:00', '79');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-12 04:00:00', '833');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-12 05:00:00', '7084');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-12 06:00:00', '6555');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-12 07:00:00', '9558');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-12 08:00:00', '10303');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-12 09:00:00', '9328');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-12 10:00:00', '11056');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-12 11:00:00', '12964');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-12 12:00:00', '699');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-12 13:00:00', '11691');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-12 14:00:00', '11833');
+INSERT INTO `tb_protocoldataByhour` VALUES ('210211', '2017-01-12 15:00:00', '13171');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-11 05:00:00', '77369');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-11 06:00:00', '80530');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-11 07:00:00', '30052');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-11 08:00:00', '60343');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-11 09:00:00', '35249');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-11 10:00:00', '34641');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-11 11:00:00', '18553');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-12 01:00:00', '7958');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-12 02:00:00', '7966');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-12 03:00:00', '7095');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-12 04:00:00', '11996');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-12 05:00:00', '20372');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-12 06:00:00', '9239');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-12 07:00:00', '49810');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-12 08:00:00', '20933');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-12 09:00:00', '77989');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-12 10:00:00', '33187');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-12 11:00:00', '22119');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-12 12:00:00', '6929');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-12 13:00:00', '72197');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-12 14:00:00', '79474');
+INSERT INTO `tb_protocoldataByhour` VALUES ('310104', '2017-01-12 15:00:00', '23322');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-11 05:00:00', '15478');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-11 06:00:00', '15724');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-11 07:00:00', '15590');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-11 08:00:00', '14794');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-11 09:00:00', '18261');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-11 10:00:00', '10303');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-11 11:00:00', '10401');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-12 01:00:00', '11133');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-12 02:00:00', '7094');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-12 03:00:00', '6144');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-12 04:00:00', '9457');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-12 05:00:00', '7601');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-12 06:00:00', '8680');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-12 07:00:00', '13824');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-12 08:00:00', '11296');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-12 09:00:00', '13384');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-12 10:00:00', '16122');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-12 11:00:00', '15290');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-12 12:00:00', '9973');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-12 13:00:00', '15070');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-12 14:00:00', '28105');
+INSERT INTO `tb_protocoldataByhour` VALUES ('370214', '2017-01-12 15:00:00', '33853');
+INSERT INTO `tb_protocoldataByhour` VALUES ('371401', '2017-01-11 06:00:00', '529');
+INSERT INTO `tb_protocoldataByhour` VALUES ('371401', '2017-01-11 07:00:00', '2847');
+INSERT INTO `tb_protocoldataByhour` VALUES ('371401', '2017-01-11 08:00:00', '6537');
+INSERT INTO `tb_protocoldataByhour` VALUES ('371401', '2017-01-11 11:00:00', '380');
+INSERT INTO `tb_protocoldataByhour` VALUES ('371401', '2017-01-12 01:00:00', '157');
+INSERT INTO `tb_protocoldataByhour` VALUES ('371401', '2017-01-12 02:00:00', '38');
+INSERT INTO `tb_protocoldataByhour` VALUES ('371401', '2017-01-12 04:00:00', '1');
+INSERT INTO `tb_protocoldataByhour` VALUES ('371401', '2017-01-12 07:00:00', '5368');
+INSERT INTO `tb_protocoldataByhour` VALUES ('371401', '2017-01-12 08:00:00', '12881');
+INSERT INTO `tb_protocoldataByhour` VALUES ('371401', '2017-01-12 09:00:00', '38');
+INSERT INTO `tb_protocoldataByhour` VALUES ('371401', '2017-01-12 11:00:00', '10279');
+INSERT INTO `tb_protocoldataByhour` VALUES ('371401', '2017-01-12 12:00:00', '7570');
+INSERT INTO `tb_protocoldataByhour` VALUES ('371401', '2017-01-12 14:00:00', '18254');
+INSERT INTO `tb_protocoldataByhour` VALUES ('422801', '2017-01-12 14:00:00', '8');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-11 05:00:00', '15427');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-11 06:00:00', '10217');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-11 07:00:00', '12845');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-11 08:00:00', '7040');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-11 09:00:00', '6123');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-11 10:00:00', '6911');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-11 11:00:00', '6177');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-12 01:00:00', '9587');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-12 02:00:00', '8549');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-12 03:00:00', '7542');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-12 04:00:00', '4699');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-12 05:00:00', '4910');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-12 06:00:00', '5608');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-12 07:00:00', '12019');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-12 08:00:00', '11820');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-12 09:00:00', '9381');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-12 10:00:00', '14328');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-12 11:00:00', '21077');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510100', '2017-01-12 12:00:00', '8584');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-11 05:00:00', '15390');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-11 06:00:00', '36439');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-11 07:00:00', '37072');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-11 08:00:00', '36243');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-11 09:00:00', '35253');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-11 10:00:00', '22613');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-11 11:00:00', '16102');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-12 01:00:00', '9367');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-12 02:00:00', '7586');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-12 03:00:00', '8665');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-12 04:00:00', '8977');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-12 05:00:00', '21128');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-12 06:00:00', '26629');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-12 07:00:00', '31662');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-12 08:00:00', '28848');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-12 09:00:00', '25581');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-12 10:00:00', '26915');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-12 12:00:00', '14751');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-12 14:00:00', '39740');
+INSERT INTO `tb_protocoldataByhour` VALUES ('510122', '2017-01-12 15:00:00', '22974');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-11 05:00:00', '101');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-11 06:00:00', '80');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-11 07:00:00', '67');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-11 08:00:00', '124');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-11 09:00:00', '30');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-11 10:00:00', '12');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-11 11:00:00', '17');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-12 01:00:00', '18');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-12 02:00:00', '2');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-12 03:00:00', '4');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-12 05:00:00', '6');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-12 06:00:00', '36');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-12 07:00:00', '52');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-12 08:00:00', '50');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-12 09:00:00', '113');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-12 10:00:00', '78');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-12 11:00:00', '148');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-12 12:00:00', '10');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-12 13:00:00', '91');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-12 14:00:00', '190');
+INSERT INTO `tb_protocoldataByhour` VALUES ('630000', '2017-01-12 15:00:00', '189');
